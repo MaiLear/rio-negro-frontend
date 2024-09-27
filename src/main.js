@@ -5,10 +5,10 @@ import router from './router'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { OhVueIcon, addIcons } from "oh-vue-icons";
-import { BiCameraFill,PxLoader,BiWhatsapp,BiYoutube,BiFileEarmarkPost,FaWindowClose } from "oh-vue-icons/icons";
+import { BiCameraFill,PxLoader,BiWhatsapp,BiYoutube,BiFileEarmarkPost,FaWindowClose,BiSunFill,FaSnowflake } from "oh-vue-icons/icons";
 import { createPinia } from 'pinia'
 
-addIcons(BiCameraFill,PxLoader,BiWhatsapp,BiYoutube,BiFileEarmarkPost,FaWindowClose);
+addIcons(BiCameraFill,PxLoader,BiWhatsapp,BiYoutube,BiFileEarmarkPost,FaWindowClose,BiSunFill,FaSnowflake);
 
 const app = createApp(App)
 app.use(router)

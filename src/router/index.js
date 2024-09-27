@@ -1,3 +1,4 @@
+import ClimateView from '@/views/Climate/ClimateView.vue'
 import ExperienceView from '@/views/Experience/ExperienceView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
@@ -12,6 +13,11 @@ const routes = [
     path: '/experience',
     name: 'experience',
     component: ExperienceView
+  },
+  {
+    path: '/climate',
+    name: 'climate',
+    component: ClimateView
   }
  
 ]

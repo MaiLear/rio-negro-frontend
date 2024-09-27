@@ -6,11 +6,12 @@
     v-for="(item, index) in ITEMS"
     :key="index"
   >
-    <div class="card rounded">
+    <div class="card rounded w-100 h-100">
       <img
         :src="item.image.url"
-        class="d-block w-100 img-top rounded-top"
+        class="d-block w-100 h-100 img-top rounded-top"
         :alt="item.image.alt"
+        style="object-fit: cover;"
       />
       <div :class="`card-body ${item.description.class}`">
         <span class="py-5 text-light fs-3">
@@ -35,7 +36,7 @@ const ITEMS = [
   },
   {
     image: {
-      url: "/img/slider-1.jpg",
+      url: "/img/slider-3.jpg",
       alt: "imagen carrusel",
     },
     description: {
@@ -45,7 +46,7 @@ const ITEMS = [
   },
   {
     image: {
-      url: "/img/slider-1.jpg",
+      url: "/img/slider-2.jpg",
       alt: "imagen carrusel",
     },
     description: {
